@@ -1,0 +1,75 @@
+.login {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 10vh;
+  background: #d1edee;
+}
+
+.logo {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.greet {
+  font-size: 2em;
+  text-align: center;
+  color: #265055;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  color: #265055;
+}
+
+input {
+  width: 322px;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+  margin: 2px 0;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: none;
+}
+.forgotPwd {
+  font-size: 0.5em;
+  text-align: center;
+  margin-right: 190px;
+}
+
+button {
+  width: 100px;
+  height: 32px;
+  margin: 5px 10px;
+  padding: 5px;
+  border-radius: 25px;
+}
+#signUp-button {
+  background-color: white;
+  border-color: #ad80db;
+  color: #ad80db;
+}
+#login-button {
+  background: #ad80db;
+  border-color: transparent;
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 75px;
+  width: 133px;
+}
